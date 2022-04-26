@@ -42,3 +42,30 @@ var manager = ("ÖFD" , ("NEW" , 10))
 print(manager.0)
 print(manager.1.0)
 print(manager.1.1)
+
+
+//String Operation
+
+let str9 = "Hello"
+
+for letter in str9 {
+    print(letter,terminator:"-")
+}
+
+var str1 = "Merhaba"
+
+if str1.contains("e"){
+    print("İçeriyor")
+}else{
+    print("İçermiyor!")
+}
+
+
+str1.insert("w", at: str1.index(str1.startIndex,offsetBy: 4))
+
+print(str1)
+
+str1.remove(at: str1.index(str1.startIndex,offsetBy: 2))
+
+print(str1)
+
